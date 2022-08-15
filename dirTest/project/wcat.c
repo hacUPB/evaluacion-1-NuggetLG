@@ -3,6 +3,7 @@
 
 int main(int argc, char *argv[]){
 
+<<<<<<< HEAD
     FILE *fin = fopen(argv[1],"r");
 
     if(fin == NULL){
@@ -19,5 +20,8 @@ int main(int argc, char *argv[]){
         }
     }while(status !=NULL);
     fclose(fin);
+=======
+int main(int argc, char *argv[]){
+>>>>>>> parent of c7da2aa (Updated wcat.c)
     exit(EXIT_SUCCESS);
 }
