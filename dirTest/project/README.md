@@ -1,27 +1,25 @@
+<h1>EVALUACIÓN 1</h1>
 
-In this directory, you should write the program `wcat.c` and compile it into
-the binary `wcat` (e.g., `gcc -o wcat wcat.c -Wall -Werror`).
+Para el siguiente trabajo se clono el repositorio suministrado para luego editar el archivo wcat, en este se pego el script mostrado en la pagina de la tarea
+finalmente se realizo el commit y el push para verlo reflejado en el repo, luego se verifico la calificacion y se encontraron 4 de 8 errores.
 
-After doing so, you can run the tests from this directory by running the
-`test-wcat.sh` script. If all goes well, you will see:
+![Captura](https://user-images.githubusercontent.com/57425566/184757604-1a252482-8d99-4780-b301-17dfd672b488.PNG)
+
+[Repositorio](https://github.com/hacUPB/evaluacion-1-NuggetLG)
+
+[Tarea](https://www.notion.so/Git-Github-y-Github-Classroom-66bd89e15a314e2eb75b913831b4806a)
 
 ```sh
-prompt> ./test-wcat.sh
-test 1: passed
-test 2: passed
-test 3: passed
-test 4: passed
-test 5: passed
-test 6: passed
-test 7: passed
-prompt>
+Comandos git usados:
+
+1. Me dirigí a la carpeta seleccionada.
+2. Use: Git init
+3. Use: Git clone https://github.com/hacUPB/evaluacion-1-NuggetLG.git
+4. despues de clonado se modifico el archivo wcat.c
+5. Use: git add wcat.c
+6. Use: git status
+7. Use: git commit -m "modificado wcat.c"
+8. Use: git push
+9. finalmente inicie sesion y se subio el push.
+
 ```
-
-The `test-wcat.sh` script is just a wrapper for the `run-tests.sh` script in
-the `tester` directory of this repository. This program has a few options; see
-the relevant
-[README](https://github.com/remzi-arpacidusseau/ostep-projects/blob/master/tester/README.md)
-for details.
-
-
-
